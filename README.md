@@ -1,4 +1,6 @@
-# swarmprom
+# swarmprom:
+
+참고자 홍성민 : alertmanager 및 docker-compose 오버레이 네트워크 적용 
 
 Swarmprom is a starter kit for Docker Swarm monitoring with [Prometheus](https://prometheus.io/),
 [Grafana](http://grafana.org/),
