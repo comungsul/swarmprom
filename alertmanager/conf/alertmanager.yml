@@ -1,11 +1,12 @@
 route:
-    receiver: 'slack'
+    receiver: 'discord'
 
 receivers:
-    - name: 'slack'
-      slack_configs:
+    - name: 'discord'
+      webhook_configs:
           - send_resolved: true
             text: "{{ .CommonAnnotations.description }}"
+            url: "https://discordapp.com/api/webhooks/923269894747869294/xR14JD_Zg8smghHgcirM-OnNpz-yFMB4mOJtsEkkKlKT_1Uu4A5rH6k8DSFLHDmtKmwK"
             #username: <user>#
             #channel: <channel>#
             #api_url: <url>#
